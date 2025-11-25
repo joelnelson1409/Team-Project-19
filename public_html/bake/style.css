@@ -1,9 +1,7 @@
-/* ================================
-   BAKERY THEME LOGIN PAGE FIX
-================================ */
+
 .logo {
-    width: 120px;   /* change this value */
-    height: auto;   /* keeps the correct proportions */
+    width: 120px;   
+    height: auto;   
 }
 body {
     background-color: #fff6ec !important;  /* Creamy bakery color */
