@@ -1,3 +1,8 @@
+<?php
+include "dbconnect.php";
+session_start();
+?>
+
 
 
 <!DOCTYPE html>
@@ -34,7 +39,7 @@
         <h1>Welcome Back!</h1>
         <p>Log in to access your saved bakery favourites</p>
 
-        <form action="../php/login.php" method="POST">
+        <form action="verify_credentials.php" method="POST">
             
             <div class="form-group">
                 <label for="email">Email Address</label>
