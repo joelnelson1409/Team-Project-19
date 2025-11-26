@@ -2,6 +2,15 @@
 // index.php - Bakes & Cakes homepage
 session_start();
 ?>
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +23,8 @@ session_start();
 
 <header class="site-header">
     <div class="logo-area">
-        <!-- Put your logo file in /images/logo.png -->
-        <img src="images/logo.png" alt="Bakes & Cakes logo" class="logo">
+        
+        <img src="img/logo.png" alt="Bakes & Cakes logo" class="logo">
         <div class="brand-text">
             <h1>Bakes & Cakes</h1>
             <p class="tagline">Your home for all your bakes and cakes</p>
