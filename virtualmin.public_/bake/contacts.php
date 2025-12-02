@@ -4,26 +4,34 @@ session_start();
 
 <?php include '../components/header.html'; ?>
 <html>
-        <body>
-        <h1>Contact Us</h1>
-        <section class="contact-info">
-            <div>
-            <label for="full-name">Full Name:</label>
-            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name"><br><br>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address"><br><br>
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Enter the subject"><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
-            <button type="submit">Submit</button>
-            </div>
-            <div>
-                <h2>Contact</h2>
-                <p>info@group19.com</p>
-            </div>
-        </section>
-    </body>
+<body>
+
+<div class="contact-container">
+    <h1>Contact Us</h1>
+
+    <div>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" placeholder="Enter your full name">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Enter your email address">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Enter the subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </div>
+
+    <div class="info-box">
+        <h2>Contact</h2>
+        <p>Email: <strong>info@group19.com</strong></p>
+    </div>
+</div>
+
+</body>
 </html>
 <?php include '../components/footer.html'; ?>
 <?php include '../components/scripts.html'; ?>
