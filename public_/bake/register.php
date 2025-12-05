@@ -47,5 +47,5 @@ session_start();
     
         
       
-  <?php include '../components/footer.html'; ?>
-  <?php include '../components/script.html'; ?>
+<?php include '../components/footer.php'; ?>
+<?php include '../components/script.html'; ?>
