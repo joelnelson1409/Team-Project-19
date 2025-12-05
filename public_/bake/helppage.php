@@ -222,3 +222,86 @@ session_start();
             </div>
         </div>
     </section>
+
+        <section class="section">
+        <h3>Custom Orders & Special Occasions</h3>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h4>Can you add personalized messages?</h4>
+                <p>
+                    Absolutely! You can add a personalized message to most cakes at checkout, 
+                    or contact us for more elaborate custom text and decorations.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What about large orders for events?</h4>
+                <p>
+                    We can handle bulk orders for corporate events, parties, and weddings. 
+                    Please use our <a href="contact.php">Contact form</a> to discuss your requirements.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How much notice do you need for custom orders?</h4>
+                <p>
+                    We recommend at least 1 week for standard custom orders and 2-3 weeks for 
+                    elaborate celebration cakes or large events.
+                </p>
+            </div>
+        </div>
+    </section>
+
+      <section class="section section-alt">
+        <h3>Returns & Quality</h3>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h4>What if I'm not satisfied with my order?</h4>
+                <p>
+                    Customer satisfaction is our priority. If you're not happy with your order, 
+                    please contact us within 24 hours and we'll make it right.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Can I return or exchange items?</h4>
+                <p>
+                    Due to the nature of fresh food, we cannot accept returns. However, 
+                    if there's an issue with quality or your order, we'll offer a refund or replacement.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What if my delivery arrives damaged?</h4>
+                <p>
+                    Please take photos and contact us immediately. We'll arrange a replacement 
+                    or full refund for any damaged items.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How can I provide feedback?</h4>
+                <p>
+                    We love hearing from our customers! You can leave reviews on product pages 
+                    or contact us directly through our <a href="contact.php">Contact form</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="help-contact">
+            <h3>Still need help?</h3>
+            <p>
+                If you couldn't find the answer to your question, we're here to help! 
+                Get in touch with our friendly team.
+            </p>
+            <div class="contact-options">
+                <a href="contact.php" class="btn primary">Contact us</a>
+                <p class="contact-info">
+                    Email: <a href="mailto:info@group19.com">info@group19.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
