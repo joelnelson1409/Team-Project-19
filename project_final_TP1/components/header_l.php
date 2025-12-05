@@ -7,7 +7,7 @@ $current = basename($_SERVER['PHP_SELF']);
     <meta charset="UTF-8">
     <title>Bakes & Cakes | Your home for all your bakes and cakes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
  </head>
 
@@ -26,14 +26,14 @@ $current = basename($_SERVER['PHP_SELF']);
         <ul>
             <li><a href="home.php" class="<?= $current == 'home.php' ? 'active' : '' ?>">Home</a></li>
             <li><a href="bakes.php" class="<?= $current == 'bakes.php' ? 'active' : '' ?>">Products</a></li>
+            
            
             <li><a href="basket.php" class="<?= $current == 'basket.php' ? 'active' : '' ?>">Basket</a></li>
-          
+           
             <li><a href="contact.php" class="<?= $current == 'contact.php' ? 'active' : '' ?>">Contact</a></li>
             <li><a href="about.php" class="<?= $current == 'about.php' ? 'active' : '' ?>">About</a></li>
-          <li><a href="helppage.php" class="<?= $current == 'helppage.php' ? 'active' : '' ?>">help</a></li>
-             <li><a href="loginpage.php" class="<?= $current == 'loginpage.php' ? 'active' : '' ?>">Login</a></li>
-          <li><a href="register.php" class="<?= $current == 'register.php' ? 'active' : '' ?>">Register</a></li>
+             <li><a href="accdetails.php" class="<?= $current == 'accdetails.php' ? 'active' : '' ?>">Account Details</a></li>
+            <li><a href="logout.php" class="<?= $current == 'logout.php' ? 'active' : '' ?>">Logout</a></li>
         </ul>
     </nav>
 
@@ -42,5 +42,10 @@ $current = basename($_SERVER['PHP_SELF']);
     </button>
 
 </header>
+
+
+
+
+
 
 
