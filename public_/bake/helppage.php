@@ -395,3 +395,6 @@ body.dark .contact-info {
     color: #ccc;
 }
 </style>
+
+</body>
+</html>
