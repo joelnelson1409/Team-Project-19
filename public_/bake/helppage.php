@@ -305,3 +305,93 @@ session_start();
         </div>
     </section>
 </main>
+
+<?php include '../components/footer.html'; ?>
+
+<script>
+// Simple light or dark mode toggle
+const toggleButton = document.getElementById('theme-toggle');
+const body = document.body;
+
+toggleButton.addEventListener('click', function () {
+    if (body.classList.contains('light')) {
+        body.classList.remove('light');
+        body.classList.add('dark');
+        toggleButton.textContent = 'Light mode';
+    } else {
+        body.classList.remove('dark');
+        body.classList.add('light');
+        toggleButton.textContent = 'Dark mode';
+    }
+});
+</script>
+
+<style>
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.faq-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e9b88f;
+}
+
+.faq-item h4 {
+    color: #c97b4a;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.faq-item p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: #3b271d;
+    font-weight: bold;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+.help-contact {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-options {
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 15px;
+    color: #555;
+}
+
+.contact-info a {
+    color: #3b271d;
+    font-weight: bold;
+}
+
+body.dark .faq-item {
+    background: #2a2a2a;
+    border-color: #444;
+}
+
+body.dark .faq-item h4 {
+    color: #e9b88f;
+}
+
+body.dark .faq-item p,
+body.dark .contact-info {
+    color: #ccc;
+}
+</style>
